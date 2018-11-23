@@ -6,4 +6,12 @@ class Dog
   def name
     @name
   end
+  
+  def breed=(breed_arg)
+    @breed = breed_arg
+  end
+  
+  def breed
+    @breed
+  end
 end
